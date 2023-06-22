@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Suhu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1 class="title">Konversi Suhu</h1>
+    <div class="container">
+        <p class="caption">Masukkan suhu derajat celcius ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk fahrenheit</p>
+        <div class="wrap">
+            <div class="form">
+                <label for="celsius">Celsius:</label>
+                <textarea id="celsius" placeholder="Enter temperature in Celsius" cols="50" rows="4"></textarea>
+            </div>
+            <div class="form">
+                <label for="fahrenheit">Fahrenheit:</label>
+                <textarea id="fahrenheit" placeholder="Enter temperature in Fahrenheit" cols="50" rows="4"></textarea>
+            </div>
+            <div class="form">
+                <label for="fahrenheit">Cara kalkulasi:</label>
+                <textarea id="calculation" cols="50" rows="4"></textarea>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="form-button" onclick="convert()">Konversi</button>
+            <button class="form-button" onclick="reset()">Atur Ulang</button>
+            <button class="form-button" onclick="reverse()">Sebaliknya</button>
+        </div>
+    </div>
+</body>
+</html>
